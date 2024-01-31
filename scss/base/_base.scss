@@ -1,0 +1,44 @@
+body{
+  font-family: $font-secondary;
+  font-size: 14px;
+}
+.container-lg{
+  margin: 0 auto;
+  max-width: 1800px;
+  padding: 0 15px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 0 15px;
+}
+.container-sm {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 0 15px;
+}
+
+.subtitle{
+  line-height: 1.5;
+  word-spacing: 6px;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  margin-right: 40px;
+  color: $white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px;
+  transition: color 0.2s linear;
+  &:hover {
+    color: $green;
+  }
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+

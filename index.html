@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Грузинский хинкальный дворик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- video -->
+      <div class="header__intro">
+        <div class="header__video">
+          <video
+            class="header__video-media"
+            src="./video/header__bg.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+      </div>
+      <div class="header__wrapper">
+        <!-- nav -->
+        <div class="header__nav">
+          <div class="header__logo">
+            <a class="header__logo-link" href="#">
+              <h3 class="header__logo-top">Грузинский</h3>
+              <p class="header__logo-bottom">хинкальный дворик</p>
+            </a>
+          </div>
+          <ul class="header__nav-list nav-list nav">
+            <li class="header__nav-item nav-item">
+              <a class="header__nav-link nav-link" href="#about">О ресторане</a>
+            </li>
+            <li class="header__nav-item nav-item">
+              <a class="header__nav-link nav-link" href="#product">Меню</a>
+            </li>
+            <li class="header__nav-item nav-item">
+              <a class="header__nav-link nav-link" href="#">Бар</a>
+            </li>
+            <li class="header__nav-item nav-item">
+              <a class="header__nav-link nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="header__buttons">
+            <!-- Иконка бургер меню -->
+            <div class="burger">
+              <span></span>
+            </div>
+            <button class="header__button-tel">
+              <a href="tel:+491570156"
+                ><img src="./img/header/phone.png" alt="tel"
+              /></a>
+            </button>
+            <button class="header__button-order">Заказать стол</button>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="container">
+          <div class="header__content">
+            <h1 class="header__title">Настоящая грузинская кухня</h1>
+            <div class="container container-sm">
+              <p class="header__subtitle subtitle">
+                Наш ресторанпредлагает только свежие и качественные продукты,
+                приготовленныепо традиционным рецептам, чтобы привнести
+                аутентичность инеповторимый вкус в каждое блюдо.
+              </p>
+            </div>
+            <div class="header__next-page">
+              <a class="header__next-link" href="#about">
+                <div class="header__scroll-btn">
+                  <div class="header__scroll-item"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- scroll -->
+      </div>
+    </header>
+    <main class="main">
+      <!-- about -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="abount__items">
+            <div class="about__image">
+              <img
+                class="about__img"
+                src="./img/about/hincaly_about.jpg"
+                alt="about_img"
+              />
+            </div>
+            <div class="about__content">
+              <div class="about__title">
+                <h2 class="about__title-text">О ресторане</h2>
+              </div>
+              <div class="about__subtitle">
+                <p class="about__subtitle-text subtitle">
+                  Добро пожаловать в "Хинкальный дворик" — уютное место, где
+                  воплощаются ароматы и вкусы грузинской кухни. Наш ресторан
+                  предлагает неповторимую атмосферу, в которой вы сможете
+                  насладиться настоящими грузинскими блюдами, приготовленными с
+                  любовью и по традиционным рецептам.
+                </p>
+                <p class="about__subtitle-text subtitle">
+                  Наша специализация - хинкали, традиционное грузинское блюдо,
+                  которое мы готовим с особым мастерством и вариативностью. Вы
+                  сможете выбрать из разнообразных начинок: сочного мяса,
+                  ароматного сыра или свежих овощей. Каждый хинкаль - это
+                  маленькое произведение искусства, приготовленное с
+                  использованием только самых свежих и качественных
+                  ингредиентов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- product -->
+      <section class="product" id="product">
+        <div class="container-lg">
+          <div class="product__nav">
+            <ul class="product__nav-list nav-list">
+              <li class="product__nav-item nav-item">
+                <a href="#salad"> Салаты </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#snacks"> Закуски </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#khachapuri"> Хачапури </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#soups"> Супы </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#hot-dishes"> Горячие блюда </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#shashlik"> Шашлык </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#lula-kebab"> Люля-кебаб </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#hinkali"> Хинкали </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#bread"> Хлеб </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#side-dishes"> Гарниры </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#sauces"> Соусы </a>
+              </li>
+              <li class="product__nav-item nav-item">
+                <a href="#dessert"> Десерты </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container-lg">
+          <div id="product__сategory" class="product__сategory">
+            <div class="box" id="salad">
+              <h4 class="product__сategory-h4 сategory">Салаты</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/salad/hohobi.jpg" alt="hohobi" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Хохоби</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Салат айсберг, имеретинский сыр, обжаренная куриная
+                          грудка с шампиньонами, болгарским перцем, соус из
+                          оливкового масла и бальзамического уксуса
+                        </p>
+                      </div>
+                      <div class="product__card-price">230 г — 14.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/salad/shavithgva.jpg"
+                        alt="shavithgva"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Шавизгва с семгой</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Нежные кусочки семги обжаренные с цукини, болгарским
+                          перцем и шампиньонами, черри, соус из оливкового масла
+                          и бальзамического уксуса
+                        </p>
+                      </div>
+                      <div class="product__card-price">250 г — 34.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/salad/mustarg.jpg"
+                        alt="mustarg"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Теплый с телятиной и соусом «Мустард»
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Микс салата, телятина, цукини, перец сладкий, черри,
+                          баклажан, шампиньоны, сливочно-горчичный соус
+                        </p>
+                      </div>
+                      <div class="product__card-price">200 г — 26.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/salad/cezar'.jpg" alt="cezar'" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Цезарь с креветками</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Микс салата, креветки, черри, джюгас, яйцо
+                          перепелиное, соус «Цезарь»
+                        </p>
+                      </div>
+                      <div class="product__card-price">200 г — 26.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/salad/pogruzinski.jpg"
+                        alt="pogruzinski"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        По-грузински с грецкими орехами
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Помидор, огурец, зелень, с заправкой из ореховой пасты
+                        </p>
+                      </div>
+                      <div class="product__card-price">185 г — 9.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/salad/lite.jpg" alt="lite" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Легкий с моцареллой</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Микс салата, нежные шарики моцареллы, черри, семена
+                          подсолнечника, с оливковым маслом и соусом бальзамико
+                        </p>
+                      </div>
+                      <div class="product__card-price">170 г — 13.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/salad/tewthis.jpg"
+                        alt="tewthis"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Тевзис</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Традиционный «Оливье» на грузинский лад. Семга,
+                          отварной картофель, морковь, стебель сельдерея, свежий
+                          огурец, заправленный соусом из майонеза с хреном
+                        </p>
+                      </div>
+                      <div class="product__card-price">240 г — 16.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="snacks">
+              <h4 class="product__сategory-h4 сategory">Закуски</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/snacks/phali.jpg" alt="phali" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Пхали с бадриджане с грецким орехом
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Сытная закуска из шпината, моркови, свеклы и
+                          баклажанов, заправленных ореховой пастой
+                        </p>
+                      </div>
+                      <div class="product__card-price">250 г — 16.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/assorti-scaled.jpg"
+                        alt="assorti-scaled"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Овощное ассорти</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Свежая ароматная зелень, огурцы, томаты, болгарский
+                          перец, редис
+                        </p>
+                      </div>
+                      <div class="product__card-price">200 г — 12.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/assorti-sirov.jpeg"
+                        alt="assorti"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Сырная тарелка</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Имеретинский, чечил, дор блю, джюгас, моцарелла,
+                          чеддер. Подается с вареньем из роз
+                        </p>
+                      </div>
+                      <div class="product__card-price">180 г — 16.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/home-solenya.jpg"
+                        alt="home-solenya"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Домашние соления</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Бочковые огурцы и зеленые помидоры, квашеная капуста,
+                          капуста по-гурийски, чеснок маринованный
+                        </p>
+                      </div>
+                      <div class="product__card-price">285 г — 9.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/myasnaya-narezka-domashnyaya.jpg"
+                        alt="myasnaya-narezka-domashnyaya"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Мясная нарезка</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Бастурма, прошутто, свинина сырокопченая, бекон, хрен
+                        </p>
+                      </div>
+                      <div class="product__card-price">250 г — 19.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/tarelka-k-pivu.jpg"
+                        alt="tarelka-k-pivu"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Тарелка к пиву</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Чесночные гренки из бородинского хлеба, сырные шарики,
+                          луковые кольца, соус Барбекю
+                        </p>
+                      </div>
+                      <div class="product__card-price">510 г — 19.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/grill-meat.jpg"
+                        alt="grill-meat"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Рёбра гриль</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Маринованные свиные ребрышки, запеченные с соусом
+                          Барбекю, зерна граната, зелень петрушки
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        270/50 г — 24.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/snacks/krylya-grill.jpg"
+                        alt="krylya-grill"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Крылышки гриль</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Куриные крылья, запеченные до румяной корочки с соусом
+                          Барбекю, зерна граната, зелень петрушки
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        300/50 г — 14.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="khachapuri">
+              <h4 class="product__сategory-h4 сategory">Хачапури</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/adjaksky.jpg"
+                        alt="adjaksky"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">По-аджарски</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">«Лодочка» с сыром и желтком</p>
+                      </div>
+                      <div class="product__card-price">350 г — 12.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/hachapuri-po-adjarski-s-bekonom.jpg"
+                        alt="hachapuri-po-adjarski-s-bekonom"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        По-аджарски с беконом
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">«Лодочка» с сыром и беконом</p>
+                      </div>
+                      <div class="product__card-price">350 г — 14.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/becon.JPG"
+                        alt="becon"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        По-аджарски с овощами
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          «Лодочка» с сыром, томатом и красным перцем
+                        </p>
+                      </div>
+                      <div class="product__card-price">350 г — 14.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/xachapuri-po-adjarski-s-shampinonami.jpg"
+                        alt="xachapuri-po-adjarski-s-shampinonami"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        По-аджарски с грибами
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">«Лодочка» с сыром и грибами</p>
+                      </div>
+                      <div class="product__card-price">350 г — 13.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/pomegrelsky.jpg"
+                        alt="pomegrelsky"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">По-мегрельски</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Бастурма, прошутто, свинина сырокопченая, бекон, хрен
+                        </p>
+                      </div>
+                      <div class="product__card-price">250 г — 19.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hachapuri/shutterstock.jpg"
+                        alt="shutterstock"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">По-гурийски</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Хачапури в виде полумесяца с начинкой из смеси
+                          имеретинского сыра, отварного яйца и зелени
+                        </p>
+                      </div>
+                      <div class="product__card-price">260 г — 10.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="soups">
+              <h4 class="product__сategory-h4 сategory">Супы</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/soups/harcho.jpg" alt="harcho" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Харчо</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Традиционный грузинский суп из говядины с рисом,
+                          томатом, зеленью, луком и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 9.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/soups/cream-chizz.jpg"
+                        alt="cream-chizz"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Томатный суп с крем-чизом
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Крем-суп из томатов с мягким сливочным сыром
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        300/20 г — 9.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/soups/bul'on.jpg" alt="bul'on" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Катмис</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">Бульон с курицей и яйцом</p>
+                      </div>
+                      <div class="product__card-price">375 г — 6.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/soups/shpinat.jpg"
+                        alt="shpinat"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Крем-суп из шпината</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Густой крем-суп из шпината и картофеля
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        300/15 г — 8.00 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="hot-dishes">
+              <h4 class="product__сategory-h4 сategory">Горячие блюда</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/chahohbili.jpg"
+                        alt="chahohbili"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Чахохбили</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Мясо курицы, тушеное в собственном соку с грузинскими
+                          специями, томатами и зеленью
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 15.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/cuisine.jpg"
+                        alt="cuisine"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Чашушули</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Телятина, тушеная с томатами, зеленью и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 19.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/Dolma.jpg"
+                        alt="dolma"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Долма</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Классический фарш с добавлением риса, закручен в
+                          виноградные листья, сметанно-чесночный соус
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        200/50/20 г — 15.30 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/skymbria.jpg"
+                        alt="skymbria"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Скумбрия</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Запечённая скумбрия с начинкой из молотого ореха,
+                          граната и пряной зелени
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        350/40 г — 19.50 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/odjahuri.jpg"
+                        alt="odjahuri"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Оджахури</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Жаркое из мяса и картофеля с болгарским перцем, луком,
+                          зеленью и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 15.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/shutterstock.jpg"
+                        alt="shutterstock"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Лосось на гриле на подушке из шпината
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Лосось, обжаренный на гриле, шпинат, соус Терияки
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        120/150/50 г — 33.00 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/kuchmachy.jpg"
+                        alt="kuchmachy"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Кучмачи</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Грузинское блюдо из куриной печени и сердечек с луком,
+                          зеленью и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">230 г — 13.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/po-checkmersky.jpg"
+                        alt="po-checkmersky"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Цыпленок по-чкмерски
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Нежная куриная грудка, запеченная в сливочно-сырном
+                          соусе с зеленью и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 15.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/shampin'ons.jpg"
+                        alt="shampin'ons"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Шампиньоны, запеченные с сыром
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Запеченные грибы с имеретинским сыром
+                        </p>
+                      </div>
+                      <div class="product__card-price">170 г — 11.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hot-dishes/lobio.jpg"
+                        alt="lobio"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Лобио</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Красная фасоль с грузинскими специями и луком
+                        </p>
+                      </div>
+                      <div class="product__card-price">300 г — 7.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="shashlik">
+              <h4 class="product__сategory-h4 сategory">Шашлык</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/shashlik/shashlyk-iz-kuricy.jpg"
+                        alt="chahohbili"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Из курицы</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Сочные кусочки филе с луком и зеленью
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        200/20 г — 14.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/shashlik/iz-svininy.jpg"
+                        alt="cuisine"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Из свинины</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Ароматные кусочки свинины с луком и зеленью
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        200/20 г — 16.50 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/shashlik/shashlyk5.jpg"
+                        alt="mcwaidy"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Мцвади на компанию</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Шашлык из свинины, шашлык куриный, люля-кебаб
+                          классический, люля-кебаб куриный, картофель запеченный
+                          с розмарином, капуста по-гурийски, соусы: сацебели,
+                          аджика, ткемали, наршараб
+                        </p>
+                      </div>
+                      <div class="product__card-price">2150 г — 88.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="lula-kebab">
+              <h4 class="product__сategory-h4 сategory">Люля-кебаб</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/lula-kebab/lulya-kebab-iz-kurinogo-farsha.jpg"
+                        alt="lulya-kebab-iz-kurinogo-farsha"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Из курицы</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          С луком и зеленью подается на лаваше
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        200/100/20 г — 12.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/lula-kebab/clasic.jpg"
+                        alt="clasic"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Классический</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          С луком и зеленью подается на лаваше
+                        </p>
+                      </div>
+                      <div class="product__card-price">
+                        200/100г — 13.90 руб.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="hinkali">
+              <h4 class="product__сategory-h4 сategory">Хинкали</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hinkali/hinki_var_nov.jpg"
+                        alt="lulya-kebab-iz-kurinogo-farsha"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">С курицей</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle"></p>
+                      </div>
+                      <div class="product__card-price">3 шт — 7.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hinkali/hinkali-clasic.jpg"
+                        alt="clasic"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Классические</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle"></p>
+                      </div>
+                      <div class="product__card-price">3 шт — 8.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hinkali/hinkali-sirom.jpg"
+                        alt="hinkali-sirom"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">С сыром</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle"></p>
+                      </div>
+                      <div class="product__card-price">5 шт — 11.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hinkali/Khinkali-gribami.jpg"
+                        alt="Khinkali-gribami"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">С грибами</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle"></p>
+                      </div>
+                      <div class="product__card-price">4 шт — 10.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/hinkali/baranina.jpg"
+                        alt="baranina"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">С бараниной</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle"></p>
+                      </div>
+                      <div class="product__card-price">4 шт — 9.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="bread">
+              <h4 class="product__сategory-h4 сategory">Хлеб</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/bread/hleb_shoti.jpg"
+                        alt="lulya-kebab-iz-kurinogo-farsha"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Шоти</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">Домашний грузинский хлеб</p>
+                      </div>
+                      <div class="product__card-price">225 г — 2.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="side-dishes">
+              <h4 class="product__сategory-h4 сategory">Гарниры</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/side-dishes/scaled-grill.jpg"
+                        alt="scaled-grill"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Овощи гриль</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Баклажаны, цукини, перец болгарский, томаты,
+                          шампиньоны
+                        </p>
+                      </div>
+                      <div class="product__card-price">140 г — 9.40 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/side-dishes/shutterstock.jpg"
+                        alt="shutterstock"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Картофель с розмарином
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Картофель, обжаренный со свежим розмарином и специями
+                        </p>
+                      </div>
+                      <div class="product__card-price">150 г — 4.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/side-dishes/-basmati-basmati.jpg"
+                        alt="lulya-kebab-iz-kurinogo-farsha"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Рис</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">Рис Басмати с зеленью</p>
+                      </div>
+                      <div class="product__card-price">200 г — 4.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="sauces">
+              <h4 class="product__сategory-h4 сategory">Соусы</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/sauces/satsebeli-sauce-7.jpg"
+                        alt="satsebeli-sauce"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Сацебели</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Соус из протертых томатов и сладкого перца, со
+                          специями и чесноком
+                        </p>
+                      </div>
+                      <div class="product__card-price">50 г — 2.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/sauces/tkemali.jpg"
+                        alt="tkemali"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Ткемали</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">Соус из ранней алычи с травами</p>
+                      </div>
+                      <div class="product__card-price">50 г — 3.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/sauces/ajica.jpg" alt="ajica" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Аджика</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Острый соус на томатной основе с добавлением
+                          грузинских специй и чеснока
+                        </p>
+                      </div>
+                      <div class="product__card-price">200 г — 4.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/sauces/narsharab.jpg"
+                        alt="narsharab"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Наршараб</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Соус из выпаренного гранатового сока
+                        </p>
+                      </div>
+                      <div class="product__card-price">30 г — 3.80 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/sauces/greek-dip-sauce.jpg"
+                        alt="greek-dip-sauce"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Мацони</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Простокваша с добавлением сметаны, чеснока и зелени
+                        </p>
+                      </div>
+                      <div class="product__card-price">50 г — 2.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/sauces/barb.jpg" alt="barb" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Барбекю</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Ароматный соус на основе томатов с пикантным вкусом
+                        </p>
+                      </div>
+                      <div class="product__card-price">50 г — 2.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+
+            <div class="box" id="dessert">
+              <h4 class="product__сategory-h4 сategory">Десерты</h4>
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/desert/trufel.jpg" alt="trufel" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Торт трюфельный</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Шоколадный бисквит, пропитанный коньяком, с шоколадным
+                          кремом
+                        </p>
+                      </div>
+                      <div class="product__card-price">110 г — 9.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/desert/tort-esterxazi-s-greckimi-orexami.jpg"
+                        alt="tort-esterxazi-s-greckimi-orexami"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Эстерхази</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Шоколадно-ореховый торт, пропитанный сливочным кремом
+                        </p>
+                      </div>
+                      <div class="product__card-price">90 г — 10.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/desert/chizzkeik.jpg" alt="chizzkeik" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">
+                        Чизкейк с белым шоколадом
+                      </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Мусс из сметаны, творога, сливок и белого бельгийского шоколада на тонкой песочной основе
+                        </p>
+                      </div>
+                      <div class="product__card-price">90 г — 9.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/desert/napoleon.jpg"
+                        alt="napoleon"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Наполеон</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Пышное пирожное из пяти нежнейших листов слоеного теста, пропитанное масляно-заварным кремом
+                        </p>
+                      </div>
+                      <div class="product__card-price">100 г — 10.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img
+                        src="./img/product/desert/shcolate-desert.jpg"
+                        alt="shcolate-desert"
+                      />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Шоколадный десерт с грецким орехом</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Шоколадное домашнее лакомство с грецким орехом
+                        </p>
+                      </div>
+                      <div class="product__card-price">150 г — 8.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/desert/fontan.jpg" alt="fontan" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Шоколадный фонтан</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Десерт для истинных любителей шоколада, подается с шариком ванильного мороженого
+                        </p>
+                      </div>
+                      <div class="product__card-price">100/50 г — 13.00 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/desert/fruit-salad-with-ice-cream.jpg" alt="fruit-salad-with-ice-cream" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Салат фруктовый с мороженым</div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                          Виноград, банан, яблоко, киви, груша, мороженое, сок
+                        </p>
+                      </div>
+                      <div class="product__card-price">225 г — 8.90 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <div class="product__card">
+                    <div class="product__card-img">
+                      <img src="./img/product/desert/m&m.jpg" alt="m&m" />
+                    </div>
+                    <div class="product__card-content">
+                      <div class="product__card-title">Мороженое со сливками и M&M's </div>
+                      <div class="product__card-subtitle">
+                        <p class="subtitle">
+                        </p>
+                      </div>
+                      <div class="product__card-price">195 г — 10.50 руб.</div>
+                    </div>
+                  </div>
+                </li>
+                <button class="btn-menu"><a href="#product">Меню</a></button>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
