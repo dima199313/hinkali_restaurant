@@ -108,3 +108,15 @@ h4 {
     flex-direction: column;
   }
 }
+@media (max-width: 499px) {
+  .product__card-img {
+    width: initial;
+    height: 100%;
+    img {
+      object-fit: cover;
+      width: 300px;
+      height: 300px;
+      margin: 40px;
+    }
+  }
+}
