@@ -59,7 +59,7 @@
                 ><img src="./img/header/phone.png" alt="tel"
               /></a>
             </button>
-            <button class="header__button-order">Заказать стол</button>
+            <button class="header__button-order button-order">Заказать стол</button>
           </div>
         </div>
         <!-- content -->
@@ -1485,11 +1485,46 @@
       </section>
       <section class="location" id="location">
         <div class="container-lg">
-          <h4 class="location__title">Где мы находимся?</h4>
-          <div class="location__map"></div>
+          <div class="location__title">
+            <h4 class="title">Где мы находимся?</h4>
+          </div>
+          <div class="location__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1224.5176601245657!2d29.34058!3d52.133679!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d66d1f95683661%3A0x8578c4e8b0d265ee!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPIDc4LCDQmtCw0LvQuNC90LrQvtCy0LjRh9C4LCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1706814508309!5m2!1sru!2sby"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="info">
+              <h4>Контакты</h4>
+              <p>
+                <strong>Адрес: </strong>ул. Советская 78, Калинковичи,
+                Гомельская область
+              </p>
+              <p>
+                <strong>Режим работы: </strong>Режим работы: с 11:00 до 24:00
+                без выходных
+              </p>
+              <p>
+                <strong>Телефон: </strong><a href="tel:+491570156">+491570156</a>
+              </p>
+              <div class="header__buttons">
+                <!-- Иконка бургер меню -->
+                <button class="button-order">Заказать стол</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__text">
+        <p>Copyright © ООО «Грузинский хинкальный дворик», 2024. Все права защищены.</p>
+      </div>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -158,6 +158,8 @@
 }
 
 .header__button-order {
+}
+.button-order{
   background-color: $green;
   padding: 10px 15px;
   border-radius: 50px;
@@ -169,6 +171,7 @@
   &:hover {
     background-color: $green-accent;
   }
+
 }
 .header__content {
   margin-top: 10%;

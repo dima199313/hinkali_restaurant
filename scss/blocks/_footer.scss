@@ -1,0 +1,11 @@
+.footer {
+  background-color: $gragit-black;
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  padding: 40px 15px;
+  p {
+    color: $white;
+  }
+}
