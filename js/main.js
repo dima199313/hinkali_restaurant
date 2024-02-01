@@ -14,6 +14,28 @@ navLinks.forEach((item) => {
   });
 });
 
+
+//modal popup
+const btns = document.querySelectorAll('*[data-modal-btn]')
+const modal = document.querySelector('.modal')
+const closeModalBtn = document.querySelector('.close_modal_window')
+console.log(btns)
+btns.forEach((item)=>{
+  item.addEventListener('click',()=>{
+    modal.classList.toggle('visible')
+    closeModalBtn.addEventListener('click',()=>{
+      modal.classList.remove('visible')
+    })
+  })
+})
+window.addEventListener('click',(event)=>{
+  if(event.target === modal){
+    modal.classList.remove('visible')
+  }
+})
+
+
+
 //Плавный скролл к якорю
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {

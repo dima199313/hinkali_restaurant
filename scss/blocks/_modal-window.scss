@@ -1,0 +1,77 @@
+.modal {
+  position: fixed;
+  z-index: 1000; /*отображение на первом месте */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /*если что то не влазит то появляется скролл */
+  background-color: rgba(0, 0, 0, 0.8);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+.modal .modal_content {
+  background-color: white;
+  margin: 15% auto;
+  border-radius: 15px;
+  padding: 35px;
+  max-width: 800px;
+  z-index: 99999;
+  position: relative;
+  box-shadow: 6px 9px 32px 5px rgba(26, 43, 56, 0.19);
+}
+.modal_wrapper {
+  display: flex;
+}
+.modal_img {
+  img {
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    width: 300px;
+    height: 100%;
+  }
+}
+.modal_text-content {
+  margin-left: 15px;
+  p {
+    font-size: 19px;
+  }
+  a {
+    font-size: 23px;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.modal_title {
+  font-size: 43px;
+  margin-bottom: 20px;
+}
+
+.close_modal_window {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+@media (max-width: 689px){
+  .modal_wrapper {
+    flex-direction: column;
+  }
+  .modal_img {
+    img {
+      border-radius: 15px;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

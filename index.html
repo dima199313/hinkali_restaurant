@@ -56,9 +56,35 @@
                 ><img src="./img/header/phone.png" alt="tel"
               /></a>
             </button>
-            <button class="header__button-order button-order">
+            <button
+              class="header__button-order button-order"
+              data-modal-btn="my_modal1"
+            >
               Заказать стол
             </button>
+
+            <!-- modal window -->
+            <div class="modal" data-modal-window="my_modal1">
+              <div class="modal_content">
+                <div class="modal_wrapper">
+                  <div class="modal_img">
+                    <img src="./img/popup/vyno-na-fone-vynograda77-1024x768.jpg" alt="modal_img" />
+                  </div>
+                  <div class="modal_text-content">
+                    <div class="modal_title">Закажите столик</div>
+                    <p>
+                      Вы можете заказать стол по телефону:
+                    </p>
+                    <a href="tel:+491570156">+491570156</a>
+                  </div>
+                </div>
+                <div class="modal_inner">
+                  <div class="close_modal_window">
+                    <img src="./img/icons/nav-close.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- content -->
@@ -1513,7 +1539,9 @@
               </p>
               <div class="header__buttons">
                 <!-- Иконка бургер меню -->
-                <button class="button-order">Заказать стол</button>
+                <button class="button-order" data-modal-btn="my_modal1">
+                  Заказать стол
+                </button>
               </div>
             </div>
           </div>
