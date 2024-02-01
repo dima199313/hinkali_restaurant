@@ -8,7 +8,7 @@ burger.addEventListener('click', () => {
 });
 navLinks.forEach((item) => {
   item.addEventListener('click', (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     burger.classList.toggle('active');
     nav.classList.toggle('open');
   });
